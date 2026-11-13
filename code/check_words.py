@@ -1,4 +1,4 @@
-"""Check the explicit words of Lemmas 3.1 and 3.2.
+"""Check the explicit words of Lemmas 2.1 and 2.2.
 
 For every odd n in the given range, build the words of the paper for c^i
 (0 <= i < n) and for every transposition (i, i+d), evaluate them as
