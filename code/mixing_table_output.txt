@@ -1,0 +1,5 @@
+n  h  base t(1/4)  with sigma t(1/4)  base t(1/100)  with sigma t(1/100)
+5 3 29 13 92 44
+7 3 103 42 281 113
+9 4 254 74 633 171
+n = 5, best t(1/4) over all 120 added permutations: 9 attained by 14 permutations, for example (1, 2, 4, 0, 3)
