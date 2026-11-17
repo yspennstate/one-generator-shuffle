@@ -160,7 +160,7 @@ Let $A=720h^2$. Then $\Dir_Q(f)\le A\,\Dir_{P_T}(f)$ for every $f$.
 \end{lemma}
 
 \begin{proof}
-Fix a transposition $u$ and the word $u=s_1\cdots s_\ell$ of Lemma~\ref{lem:transposition}, so $\ell\le L:=12h$. Writing $g_k=gs_1\cdots s_k$, we have $f(gu)-f(g)=\sum_{k=1}^{\ell}\bigl(f(g_k)-f(g_{k-1})\bigr)$, and the Cauchy--Schwarz inequality gives $(f(gu)-f(g))^2\le\ell\sum_k(f(g_{k-1}s_k)-f(g_{k-1}))^2$. Averaging over $g$, and using that $g\mapsto g_{k-1}$ is a bijection of $S_n$,
+The argument is the comparison of Dirichlet forms of Diaconis and Saloff-Coste~\cite{DSC}. Fix a transposition $u$ and the word $u=s_1\cdots s_\ell$ of Lemma~\ref{lem:transposition}, so $\ell\le L:=12h$. Writing $g_k=gs_1\cdots s_k$, we have $f(gu)-f(g)=\sum_{k=1}^{\ell}\bigl(f(g_k)-f(g_{k-1})\bigr)$, and the Cauchy--Schwarz inequality gives $(f(gu)-f(g))^2\le\ell\sum_k(f(g_{k-1}s_k)-f(g_{k-1}))^2$. Averaging over $g$, and using that $g\mapsto g_{k-1}$ is a bijection of $S_n$,
 \[
  D_u(f)\le\ell\sum_{k=1}^{\ell}D_{s_k}(f)\le L^2\sum_{s\in T}D_s(f),
 \]
@@ -267,6 +267,8 @@ in the funding declaration above.
 
 \section*{Declaration of generative AI and AI-assisted technologies}
 The paper comes out of Math Brain, an ongoing project on the use of AI systems for research mathematics. In November 2026 Codex (OpenAI, GPT-6.1) found the proofs of Theorem~\ref{thm:main} and Proposition~\ref{prop:lower}, a second Codex instance reviewed the proofs, and Claude Opus~5.5 (Anthropic), working in Claude Code, wrote the paper and the verification code. The author directed the work and is responsible for the content of the paper and for decisions concerning its dissemination.
+
+The results rest on the work of others. The question is due to Diaconis~\cite[Question~3]{Diaconis13}. The upper bound uses the comparison technique of Diaconis and Saloff-Coste~\cite{DSC} and the spectrum of the random transposition walk computed by Diaconis and Shahshahani~\cite{DS81}; the order $n^3\log n$ of the walk without the added generator is due to Diaconis and Saloff-Coste~\cite{DSC} and Wilson~\cite{Wilson}. The new steps are the choice $\sigma(x)=2x$, the short words of Section~\ref{sec:words} (Lemmas~\ref{lem:powers} and~\ref{lem:transposition}), and Theorem~\ref{thm:main} and Proposition~\ref{prop:lower}.
 
 \section*{Data availability}
 No data were generated or analysed. The \LaTeX{} source of the paper and the code that checks the words of Section~\ref{sec:words} and computes the table of Section~\ref{sec:small} are available at \url{https://github.com/yspennstate/one-generator-shuffle}.
