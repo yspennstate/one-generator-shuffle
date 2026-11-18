@@ -26,8 +26,7 @@ The research presented in this paper was supported by the European Research Coun
 Union's Horizon Europe research and innovation program (grant agreement No. 101041711), by the Simons Foundation
 as part of the Collaboration on the Mathematical and Scientific Foundations of Deep Learning, by Heights Labs, by
 Convex Nexus Capital, by the Israel Science Foundation (grant number 2258/19), and by the Israel Science Foundation
-(ISF Grant 4101/25). Computational resources were provided in part by Google Cloud through its education credits
-program (credit 530550103).
+(ISF Grant 4101/25).
 
 ## License
 
